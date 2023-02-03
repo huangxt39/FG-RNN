@@ -71,9 +71,9 @@ train_data, train_fix = get_data(tokenized_dataset['train'], vocab, batch_size, 
 valid_data, valid_fix = get_data(tokenized_dataset['validation'], vocab, batch_size, args.fixation)
 test_data, test_fix = get_data(tokenized_dataset['test'], vocab, batch_size, args.fixation)
 
-embedding_dim = 100             # 400 in the paper
-               # 1150 in the paper
-num_layers = None                   # 3 in the paper
+embedding_dim = 100             
+              
+num_layers = None              
 dropout_rate_emb = 0.5    
 dropout_rate_layer = 0.25          
 tie_weights = True                  
