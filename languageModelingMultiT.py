@@ -69,8 +69,8 @@ valid_data, _ = get_data(tokenized_dataset['validation'], vocab, batch_size, Fal
 test_data, _ = get_data(tokenized_dataset['test'], vocab, batch_size, False)
 
 
-embedding_dim = 100             # 400 in the paper
-               # 1150 in the paper
+embedding_dim = 100       
+               
 dropout_rate_emb = 0.5    
 dropout_rate_layer = 0.25          
 tie_weights = True                  
